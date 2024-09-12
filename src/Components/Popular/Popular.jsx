@@ -1,9 +1,12 @@
 import React from 'react'
 import './Popular.css'
-import data_product from '../Assets/data'
 import Item from '../Item/Item'
+import data_product from "../Assets/data"
 
-const Popular = () => {
+const Popular = (props) => {
+
+  
+
   return (
     <div className='popular'>
         <h1>POPULAR IN WOMEN</h1>
